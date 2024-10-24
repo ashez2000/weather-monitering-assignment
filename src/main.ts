@@ -43,4 +43,4 @@ function exceededThreshold(weatherInfo: WeatherInfo) {
   return false
 }
 
-setInterval(moniter, 5000)
+setInterval(moniter, parseInt(process.argv[2]))

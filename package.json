@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "tsx ./src/main.ts"
+    "start": "tsx ./src/main.ts",
+    "db:push": "prisma db push"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
